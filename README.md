@@ -5,10 +5,12 @@ A performance monitoring plugin for hvbench based on [netdata](https://github.co
 ## INSTALL
 
   - Copy our custom netdata-plugin into netdata's plugin directory:
+
 ```
-vagrant ssh hvbench-ctrl
-cd hvbench-api
+git clone git@github.com:csieber/hvbench-netdata-plugin.git
+cd hvbench-netdata-plugin
 sudo cp *.plugin /usr/libexec/netdata/plugins.d/
+
 ```
   - Configure netdata so that it only shows the data from our custom netdata plugin. Copy our custom Netdata configuration file to this directory:
 ```
