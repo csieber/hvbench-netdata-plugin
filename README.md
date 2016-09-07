@@ -7,7 +7,7 @@ A performance monitoring plugin for hvbench based on [netdata](https://github.co
   - Copy our custom netdata-plugin into netdata's plugin directory:
 
 ```
-git clone git@github.com:csieber/hvbench-netdata-plugin.git
+git clone https://github.com/csieber/hvbench-netdata-plugin.git
 cd hvbench-netdata-plugin
 sudo cp *.plugin /usr/libexec/netdata/plugins.d/
 
