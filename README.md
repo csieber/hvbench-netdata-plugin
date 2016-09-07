@@ -1,6 +1,6 @@
 # hvbench-netdata-plugin
 
-A performance monitoring plugin for hvbench based on [netdata](https://github.com/firehol/netdata).
+A performance monitoring plugin for hvbench based on [netdata](https://github.com/firehol/netdata). It takes the messages send by hvbench to kafka and visualises them.
 
 ## INSTALL
 
